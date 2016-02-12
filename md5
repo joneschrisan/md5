@@ -25,9 +25,8 @@ if ($len eq 0) {
 } else {
     $first = shift @ARGV;
     if (grep $_ eq $first, @types) {
-        print "Found $first\n";
+        // Do nothing
     } else {
-        print "$first Not Found\n";
         unshift @ARGV, $first;
         $first = NUL;
     }

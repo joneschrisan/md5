@@ -5,7 +5,7 @@ A small light weight MD5 hash program written in perl
 ## Usage
 
 ```
-md5 [type] [string]
+md5 [type] [string [string [...]]]
 ```
 
 ### types

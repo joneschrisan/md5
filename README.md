@@ -28,7 +28,9 @@ Ready to use.
 
 ### Windows
 
-This may sound funny but install perl first. Windows does not come with perl installed as standard. You can get perl by going [here](https://www.perl.org/get.html)
+This may sound funny but install perl first. Windows does not come with perl installed as standard.
+
+You can get perl by going to [https://www.perl.org/get.html](https://www.perl.org/get.html)
 
 Remove the first line of the script ```!#/usr/bin/perl```
 

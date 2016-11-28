@@ -40,9 +40,13 @@ This may sound funny but install perl first. Windows does not come with perl ins
 
 You can get perl by going to [https://www.perl.org/get.html](https://www.perl.org/get.html)
 
-Remove the first line of the script ```!#/usr/bin/perl```
+Remove the first line of the script `!#/usr/bin/perl`
 
-Put file in a standard location and add that location to the path variable.
+Add the perl package "Switch" (`ppm install Switch` for ActiveState Perl)
+
+Put file in a standard location and add that location to the PATH variable.
+
+You may have to add the ".pl" extention to the PATHEXT variable.
 
 Ready to use.
 

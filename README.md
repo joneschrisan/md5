@@ -41,6 +41,8 @@ This is the input to be MD5 encoded. This can be a single string, a space sepera
 
 Put file in ```/usr/bin``` and ```chmod 755```
 
+May have to add the perl package "Digest-MD5-File" depending on distro and standard perl install.
+
 Ready to use.
 
 ### Windows

@@ -2,27 +2,36 @@
 
 A small light weight MD5 hash program written in perl
 
+Now hashes strings and files
+
 ---
 
 ## Usage
 
 ```
-md5 [type] [string [string [...]]]
+md5 [option] [string [string [...]]]
 ```
 
 ---
 
-### Types
+### Options
 
-A type does not have to be give and hex will be chosen instead by default
-
-* plain
-* hex (default)
-* base64
+* h Print this help file
+* v Print version info
+* f String(s) is/are files
+* p Use plain hash
+* b Use base64 hash
+* x Use HEX hash (default)
 
 ### String
 
-This is the input to be MD5 encoded. This can be a single string or a space seperated list of strings.
+This is the input to be MD5 encoded. This can be a single string, a space seperated list of strings, a file name or space separated list of file names.
+
+---
+
+## Required Perl Modules
+
+* Digest-MD5-File
 
 ---
 
@@ -40,9 +49,9 @@ This may sound funny but install perl first. Windows does not come with perl ins
 
 You can get perl by going to [https://www.perl.org/get.html](https://www.perl.org/get.html)
 
-Remove the first line of the script `!#/usr/bin/perl`
+Add the perl package "Digest-MD5-File" (`ppm install Digest-MD5-File` for ActiveState Perl)
 
-Add the perl package "Switch" (`ppm install Switch` for ActiveState Perl)
+Remove the first line of the script `!#/usr/bin/perl`
 
 Put file in a standard location and add that location to the PATH variable.
 
